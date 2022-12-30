@@ -1,7 +1,6 @@
 {
   "name": "kreattix-design-utils",
-  "private": false,
-  "version": "0.0.5",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
@@ -30,5 +29,6 @@
   },
   "dependencies": {
     "kreattix-design-utils": "^0.0.3"
-  }
+  },
+  "license": "MIT"
 }
