@@ -1,8 +1,8 @@
-export type I_JoinClass = (classlist: string[]) => string
+export type I_JoinClass = (classlist?: string[]) => string
 
 export type I_AddPrefix = (
-	classlist: string | string[],
-	prefix: string
+	prefix: string,
+	classlist?: string | string[]
 ) => string
 
 export type I_MapClass = (
@@ -15,7 +15,7 @@ export const joinClass: I_JoinClass = (classlist = []) => {
 	return classlist.join(' ').trim()
 }
 
-export const addPrefix: I_AddPrefix = (classlist = '', prefix = '') => {
+export const addPrefix: I_AddPrefix = (prefix, classlist = '') => {
 	if (!classlist || (classlist && classlist.length <= 0)) return ''
 	if (typeof classlist === 'string') {
 		return [prefix, classlist].join('-')
@@ -39,6 +39,6 @@ export const mapClass: I_MapClass = (prefix, classlist, staticClasses = '') => {
 	if (!prefix) {
 		return joinClass([...classnames, staticClasses])
 	} else {
-		return joinClass([addPrefix(classnames, prefix), staticClasses])
+		return joinClass([addPrefix(prefix, classnames), staticClasses])
 	}
 }
