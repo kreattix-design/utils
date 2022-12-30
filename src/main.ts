@@ -1,3 +1,3 @@
 export const logData = () => {
-	console.log('test')
+	console.log('kreattix-design')
 }
