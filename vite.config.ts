@@ -5,9 +5,9 @@ export default defineConfig({
 	plugins: [dts()],
 	build: {
 		lib: {
-			entry: './src/main.ts',
+			entry: './src/index.ts',
 			name: 'Utils',
-			fileName: 'index'
+			fileName: 'kreattix-design-utils'
 		}
 	}
 })
