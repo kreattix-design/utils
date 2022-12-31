@@ -1,6 +1,6 @@
 {
   "name": "kreattix-design-utils",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "files": [
     "dist"
@@ -17,6 +17,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "test": "jest --watch",
+    "build:test": "jest",
     "format": "prettier --write src/**/*.{ts} --config .prettierrc"
   },
   "repository": {
