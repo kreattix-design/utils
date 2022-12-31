@@ -51,11 +51,11 @@ mapClass('kd', 'class-as-string', 'static-class')
 
 ## Parameters
 
-| Parameter Name | Type     | Default                     |
-| -------------- | -------- | --------------------------- | --- |
-| prefix         | `string  | null`                       | --- |
-| classlist      | `string  | { [key: string]: boolean }` | --- |
-| staticClass    | `string` | ""                          |
+| Parameter Name | Type                                  | Default |
+| -------------- | ------------------------------------- | ------- |
+| prefix         | `string , null`                       | --      |
+| classlist      | `string , { [key: string]: boolean }` | --      |
+| staticClass    | `string`                              | ""      |
 
 ## License
 
