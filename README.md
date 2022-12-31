@@ -26,22 +26,22 @@ As of we only functions to map classes based on the values provided, along with 
 
 ```js
 mapClass(
-	'kd',
-	{
-		class1: true,
-		class2: false
-	},
-	'static-class'
+  'kd',
+  {
+    class1: true,
+    class2: false
+  },
+  'static-class'
 )
 // result -> kd-class1 static-class
 
 mapClass(
-	null,
-	{
-		class1: true,
-		class2: false
-	},
-	'static-class'
+  null,
+  {
+    class1: true,
+    class2: false
+  },
+  'static-class'
 )
 // result -> class1 static-class
 
