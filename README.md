@@ -18,7 +18,7 @@ $ npm install kreattix-design-utils
 $ yarn add kreattix-design-utils
 ```
 
-As of we only functions to map classes based on the values provided, along with the functionality of adding prefix to the class.
+As of now we only have functions to map classes based on the values provided, along with the functionality of adding prefix to the class.
 
 ## Class Functions
 
