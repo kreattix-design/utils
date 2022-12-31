@@ -49,7 +49,7 @@ mapClass('kd', 'class-as-string', 'static-class')
 // result -> kd-class-as-string static-class
 ```
 
-## Parameters
+### Parameters
 
 | Parameter Name | Type                                  | Default |
 | -------------- | ------------------------------------- | ------- |
