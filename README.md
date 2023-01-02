@@ -1,8 +1,8 @@
 ## Kreattix Design Utils
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) ![npm version](https://img.shields.io/npm/v/kreattix-design-utils)
-
 Basic Utility functions for Kreattix Design. As kreattix design don't have their own utilities, we are here to help you. You easily can use this library with kreattix design. It is also usable with vanilla javascript or any javascript framework.
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) ![npm version](https://img.shields.io/npm/v/kreattix-design-utils)
 
 ## Installation
 
